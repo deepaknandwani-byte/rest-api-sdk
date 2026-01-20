@@ -64,5 +64,5 @@ export class CreateAgentConversationRequestMetadataContext {
 }
 
 
-export type CreateAgentConversationRequestMetadataContextTypeEnum = "answer" | "liveboard" | "data_source" ;
+export type CreateAgentConversationRequestMetadataContextTypeEnum = "LIVEBOARD" | "DATA_SOURCE" ;
 

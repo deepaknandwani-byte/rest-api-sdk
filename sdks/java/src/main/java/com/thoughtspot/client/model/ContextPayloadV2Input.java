@@ -34,11 +34,9 @@ public class ContextPayloadV2Input implements Serializable {
     /** Type of the context. */
     @JsonAdapter(TypeEnum.Adapter.class)
     public enum TypeEnum {
-        ANSWER("answer"),
+        LIVEBOARD("LIVEBOARD"),
 
-        LIVEBOARD("liveboard"),
-
-        DATA_SOURCE("data_source");
+        DATA_SOURCE("DATA_SOURCE");
 
         private String value;
 
